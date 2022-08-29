@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stuido Typo</title>
+</head>
+<style>
+
+    html{ margin: 0;}
+    body{ 
+      overflow: hidden;
+      margin:0;
+      padding:0;}
+
+</style>
+<body>
+<div>
+</div>
+            <script src="https://unpkg.com/three@0.125.2/build/three.js"></script>
+            <script src="https://unpkg.com/three@0.125.2/examples/js/controls/OrbitControls.js"></script>
+            <script src="https://unpkg.com/three@0.125.2/examples/js/loaders/DRACOLoader.js"></script>
+            <script src="https://unpkg.com/three@0.125.2/examples/js/loaders/GLTFLoader.js"></script>
+<script>
+  //window.navigator.vibrate([200, 100, 200]);
+</script>
+    <script>
+
+ const { innerWidth, innerHeight } = window;
+
+const renderer = new THREE.WebGLRenderer({ antialias: true });
+renderer.setSize(innerWidth, innerHeight);
+renderer.setPixelRatio(2);
+renderer.outputEncoding = THREE.sRGBEncoding;
+renderer.toneMapping = THREE.ACESFilmicToneMapping;
+document.body.appendChild(renderer.domElement);
+
+const camera = new THREE.PerspectiveCamera(75, innerWidth / innerHeight);
+camera.position.z = 2;
+
+
+const controls = new THREE.OrbitControls(camera, renderer.domElement);
+controls.enableDamping = true;
+controls.autoRotate = true;
+
+const scene = new THREE.Scene();
+
+//bg color
+scene.background = new THREE.Color( 0xc41712 );
+
+
+        new THREE.GLTFLoader().load('scene.gltf', result => { 
+          model = result.scene.children[0]; 
+          model.position.set(0,0,0);
+          model.traverse(n => { if ( n.isMesh ) {
+            n.castShadow = true; 
+            n.receiveShadow = true;
+            if(n.material.map) n.material.map.anisotropy = 1; 
+          }});
+          scene.add(model);
+        });
+
+        //HELPER
+        //scene.add( new THREE.AxesHelper(500));
+
+const spotLight = new THREE.SpotLight(0xffa95c,4);
+spotLight.position.set(-5,5,5);
+spotLight.castShadow = true;
+//scene.add( spotLight );
+
+const pointLight = new THREE.PointLight( 0xff0000, 1, 100 );
+pointLight.position.set( 50, 50, 50 );
+//scene.add( pointLight );
+
+
+const sphereLight = new THREE.HemisphereLight(0xffffff, 0x000000, 2);
+scene.add(sphereLight);
+
+hemiLight = new THREE.HemisphereLight(0xffeeb1, 0x080820, 1);
+scene.add(hemiLight);
+
+const ambiLight = new THREE.AmbientLight( 0x404040, 5.0 );
+//scene.add(ambiLight);
+
+light = new THREE.SpotLight(0xffa95c,4);
+light.position.set(-50,50,50);
+light.castShadow = true;
+//scene.add( light );
+
+
+
+const directionalLight = new THREE.DirectionalLight( 0xffffff, 0.5 );
+//scene.add( directionalLight );
+
+
+
+const handleResize = () => {
+  const { innerWidth, innerHeight } = window;
+
+  renderer.setSize(innerWidth, innerHeight);
+  camera.aspect = innerWidth / innerHeight;
+  camera.updateProjectionMatrix();
+};
+window.addEventListener('resize', handleResize);
+
+renderer.setAnimationLoop(time => {
+
+
+
+  controls.update();
+
+  renderer.render(scene, camera);
+});
+    </script>
+          <script data-goatcounter="https://valentine2021.goatcounter.com/count"
+          async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>

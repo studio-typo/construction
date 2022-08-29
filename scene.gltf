@@ -1,0 +1,419 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 3000,
+      "max": [
+        -6.390999794006348,
+        -10.61359977722168,
+        20.865699768066406
+      ],
+      "min": [
+        -9.285099983215332,
+        -20.508699417114258,
+        15.125699996948242
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 36000,
+      "componentType": 5126,
+      "count": 3000,
+      "max": [
+        0.998611569404602,
+        0.9999450445175171,
+        0.9981983304023743
+      ],
+      "min": [
+        -0.9996845126152039,
+        -0.9999333620071411,
+        -0.999885082244873
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 3000,
+      "max": [
+        0.5503000020980835,
+        0.9334999918937683
+      ],
+      "min": [
+        0.055799998342990875,
+        0.13099999725818634
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 8736,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 72000,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        -5.720200061798096,
+        -9.368499755859375,
+        20.843399047851563
+      ],
+      "min": [
+        -25.378799438476563,
+        -20.509000778198242,
+        7.436399936676025
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 858384,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        1.0,
+        1.0,
+        0.9999748468399048
+      ],
+      "min": [
+        -0.9998898506164551,
+        -1.0,
+        -0.9999500513076782
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 24000,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        0.9943000078201294,
+        0.98580002784729
+      ],
+      "min": [
+        0.030300000682473183,
+        0.00800000037997961
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 34944,
+      "componentType": 5125,
+      "count": 357636,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1644768,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        -7.024700164794922,
+        -9.797300338745117,
+        21.403200149536133
+      ],
+      "min": [
+        -22.049699783325195,
+        -21.27750015258789,
+        7.262800216674805
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 2431152,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        0.9999250173568726,
+        0.9999834299087524,
+        0.9999557733535767
+      ],
+      "min": [
+        -0.9999867677688599,
+        -0.9999798536300659,
+        -0.999983549118042
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 548256,
+      "componentType": 5126,
+      "count": 65532,
+      "max": [
+        0.8335000276565552,
+        0.9936000108718872
+      ],
+      "min": [
+        0.013899999670684338,
+        0.250900000333786
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 1465488,
+      "componentType": 5125,
+      "count": 358779,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 3217536,
+      "componentType": 5126,
+      "count": 48272,
+      "max": [
+        -6.413300037384033,
+        -9.90820026397705,
+        21.39889907836914
+      ],
+      "min": [
+        -22.04199981689453,
+        -21.565099716186523,
+        7.327899932861328
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 3796800,
+      "componentType": 5126,
+      "count": 48272,
+      "max": [
+        0.9999420642852783,
+        0.9999998807907104,
+        0.9999557733535767
+      ],
+      "min": [
+        -0.9999798536300659,
+        -0.9999443292617798,
+        -0.9998860359191895
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 1072512,
+      "componentType": 5126,
+      "count": 48272,
+      "max": [
+        0.8299000263214111,
+        0.993399977684021
+      ],
+      "min": [
+        0.01720000058412552,
+        0.13099999725818634
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 2900604,
+      "componentType": 5125,
+      "count": 251406,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "inocx (https://sketchfab.com/inocx)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/screaming-hand-d685a735bead4944af3a31f8ef6e2d72",
+      "title": "Screaming hand"
+    },
+    "generator": "Sketchfab-12.67.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 3906228,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1458688,
+      "byteOffset": 3906228,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 4376064,
+      "byteOffset": 5364916,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 9740980,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/Cylindre003defaultMat_baseColor.jpeg"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Cylindre003defaultMat",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.6
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Object_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Object_1",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Object_2",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 9,
+            "POSITION": 8,
+            "TEXCOORD_0": 10
+          },
+          "indices": 11,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Object_3",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 13,
+            "POSITION": 12,
+            "TEXCOORD_0": 14
+          },
+          "indices": 15,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "name": "Screaming hand-inocx.com.obj.cleaner"
+    },
+    {
+      "mesh": 0,
+      "name": "Object_2"
+    },
+    {
+      "mesh": 1,
+      "name": "Object_3"
+    },
+    {
+      "mesh": 2,
+      "name": "Object_4"
+    },
+    {
+      "mesh": 3,
+      "name": "Object_5"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    }
+  ]
+}
