@@ -1,0 +1,11 @@
+Model Information:
+* title:	Typo
+* source:	https://sketchfab.com/3d-models/typo-8c087f5dc3734201bc9baa6a3d9bf745
+* author:	gogo1520180 (https://sketchfab.com/gogo1520180)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Typo" (https://sketchfab.com/3d-models/typo-8c087f5dc3734201bc9baa6a3d9bf745) by gogo1520180 (https://sketchfab.com/gogo1520180) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
